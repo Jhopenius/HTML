@@ -1,0 +1,109 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+	text-align		: center;
+	font-size: 40;
+}
+
+h1 {
+	color			: rgb(97, 107, 72);
+	text-align		: center;
+	font-size		: 10px;
+	font-family		: Arial;
+	letter-spacing		: 2px;
+}
+
+.image {
+	position		: relative;
+    	text-align		: center;
+    	color			: white;
+}
+
+h2 {
+	font-family		: Arial;
+	position		: absolute;
+    	top			: 23%;
+    	left			: 50%;
+    	transform		: translate(-50%, -50%);
+    	letter-spacing		: 2px;
+}
+
+h3{
+	font-size		: 10px;
+	font-family		: Arial;
+	position		: absolute;
+    	top			: 39%;
+    	left			: 50%;
+    	transform		: translate(-50%, -50%);
+    	letter-spacing		: 2px;
+}
+
+h4 {
+	text-align		: center;
+	font-family		: Arial;
+	letter-spacing		: 1px;
+}
+
+
+h5{
+			text-align: center;
+    	letter-spacing		: 22px;
+}
+
+h6{
+	font-family		: Arial;
+		position: fixed;
+			right: 55%;
+			top: 56%;
+			color: white;
+			font-size: 18px;
+			letter-spacing: 2px;
+			font-weight: normal;
+}
+
+h7{
+	font-family		: Arial;
+		position: fixed;
+			right: 41.5%;
+			top: 60%;
+			color: white;
+			font-size: 18px;
+			letter-spacing: 2px;
+			font-weight: normal;
+}
+
+.text1{
+			width: 234px;
+			transform: translate(710px, 0);
+			color			: rgb(152, 161, 114);
+			font-weight: bold;
+}
+
+.text2{
+			width: 234px;
+			transform: translate(970px, -36px);
+			color			: rgb(152, 161, 114);
+			font-weight: bold;
+}
+
+.subtext1{
+			width: 234px;
+			transform: translate(710px, 0);
+			font-weight: normal;
+}
+
+.subtext2{
+			width: 234px;
+			transform: translate(970px, -71px);
+			font-weight: normal;
+}
+
+#main-block {
+	/* border-width: 10px;
+	border-color: red; */
+	border: 1px solid grey;
+}
