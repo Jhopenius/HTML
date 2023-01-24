@@ -77,29 +77,56 @@ h7{
 }
 
 .text1{
-			width: 234px;
+	width: 240px;
 			transform: translate(710px, 0);
+	line-height: 15px;
+	font-size: 14px;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+}
+i{
+  	font-size: 18px;
 			color			: rgb(152, 161, 114);
 			font-weight: bold;
+			line-height: 25px;
+			font-style: normal;
 }
 
 .text2{
-			width: 234px;
-			transform: translate(970px, -36px);
+	width: 240px;
+	transform: translate(972px, -95px);
+	line-height: 15px;
+	font-size: 14px;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+}
+
+i2{
+
+	font-size: 18px;
 			color			: rgb(152, 161, 114);
 			font-weight: bold;
+			line-height: 25px;
+			font-style: normal;
 }
 
-.subtext1{
-			width: 234px;
-			transform: translate(710px, 0);
-			font-weight: normal;
+.image2 {
+	position		: relative;
+    	text-align		: center;
+    	color			: white;
 }
 
-.subtext2{
-			width: 234px;
-			transform: translate(970px, -71px);
-			font-weight: normal;
+h8 {
+	font-family		: Arial;
+	position		: absolute;
+    	top			: 35%;
+    	left			: 50%;
+    	transform		: translate(-50%, -50%);
+    	letter-spacing		: 2px;
+    	font-size: 20px;
+    	font-weight: bold;
 }
 
 #main-block {
